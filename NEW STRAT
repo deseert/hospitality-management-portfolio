@@ -1,0 +1,36 @@
+Professional portfolio for Phase 2 of the Enterprise Configuration & Delivery course.  
+This repo documents my work designing and configuring a simple ERP system to solve real restaurant management challenges, with a focus on Odoo as the enterprise platform.
+
+## The Problem Being Solved
+Small to medium restaurants often face high waste from poor inventory tracking, over/under-staffing due to manual scheduling, slow order processing during peaks, and disconnected tools for POS, stock, and staff. This leads to lost revenue, frustrated teams, and inconsistent guest experiences.
+
+## System Vision
+Build an integrated, affordable ERP tailored for restaurants:  
+- Real-time POS for dine-in/takeaway with table management and quick orders.  
+- Automated inventory linked to recipes/POS sales to reduce food waste and trigger reorders.  
+- Employee shift planning to optimize labor costs and coverage.  
+- Basic reporting for sales, stock, and performance.  
+The goal: Cut operational costs 15-20%, improve efficiency, and scale easily—using Odoo’s modular apps (POS Restaurant, Inventory, Planning/HR) as the core platform.
+
+## My Role
+As the individual contributor (and drawing from my restaurant management background):  
+- Defined requirements and system vision.  
+- Researched/mapped features to Odoo modules (POS for orders/tables, Inventory for stock/recipes, Planning for shifts).  
+- Documented artifacts, architecture considerations, and configuration ideas.  
+- Focused on practical, out-of-the-box Odoo use with minimal custom dev.
+
+## Key Artifacts & Deliverables
+
+ Initial problem statement, goals, and high-level design.  
+- **Requirements Mapping** —  How restaurant needs align with Odoo modules (e.g., POS Restaurant for table/orders, Inventory for real-time stock + recipe BOMs, Employee Planning for shifts).  
+- **Odoo Module Exploration Notes** — Key features used:  
+  - POS Restaurant: Table management, order routing to the kitchen, bill splitting, and offline mode.  
+  - Inventory: Real-time tracking, multi-location (kitchen/bar), recipe-linked deductions, auto-reordering.  
+  - Planning/HR: Shift scheduling, role assignment, attendance tracking for staff.
+
+## Learning & Next Steps
+This course showed me how enterprise platforms like Odoo turn manual restaurant chaos into streamlined operations. I learned to map user needs directly to configurable modules instead of building from scratch.  
+Future additions: Full config screenshots, test data examples, or deployment notes.
+
+
+Last updated: March 2026
